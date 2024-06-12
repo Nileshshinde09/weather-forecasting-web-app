@@ -3,6 +3,7 @@ import axios from "axios";
 
 class whether {
     ForecastWhether = async ({ dateOptions, citiesForcasting }) => {
+        console.log(VITE_API_KEY)
         const options = {
             method: 'GET',
             url: 'https://weatherapi-com.p.rapidapi.com/forecast.json',
