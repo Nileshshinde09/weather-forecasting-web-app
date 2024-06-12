@@ -1,2 +1,1 @@
-# weather-forecasting-web-app
-.
+# drift-client
